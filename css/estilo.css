@@ -1,0 +1,116 @@
+@charset "utf-8";
+@media(max-width:1020px) {
+	.servicio {float:none; width:auto;}
+}
+
+* {	box-sizing:border-box;}
+
+body {	font-family: 'Montserrat', sans-serif;
+		background-image: url("../imagenes/Fondo.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;	
+	 }
+	 
+header	{text-align:center;}
+
+#logo {	display: block; margin: 0 auto 0 auto;}
+
+
+#menu {	margin: 0 auto;
+		width: 50%;
+		padding: 0;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	  }
+#menu ul li.verde a{color:#3cd42f;}
+#menu ul {	text-align:center;}
+#menu li {	display: inline;}
+#menu li a:hover {color:#5f5f5f;}
+#menu li a {	text-decoration: none;
+				padding: 2%;
+				font-weight: bold;
+				color: #232323;
+			}
+				
+#cuerpo {	margin: 0 auto; width: 80%;
+			padding-top: 7%;
+		}
+		
+footer {	position:fixed;
+			margin-top: 5%;
+			left:0px;
+			bottom:0px;
+			height:30px;
+			width:100%;
+			background:#999;
+	   }		
+
+/* Index */
+.galeria {	padding-top:5%;
+			padding-bottom:5%;
+		 }
+.galeria article {padding-bottom:10px;}
+article img{width:100%;}
+article p,footer p{text-align:center;}
+
+
+/* Servicios */
+
+.servicio {	padding-top:5%;
+			padding-bottom;5%;
+			text-align:center;
+		  }
+.servicio img {width:30%;}
+.servicio h2 {	font-size: 16px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color:#3cd42f;
+				padding-top: 3%;
+			 }
+				
+.servicio p {	font-size:13px;	}
+
+
+/* Sobre Mi */
+#SobreMi {	padding-bottom:5%;
+			padding-top:5%;
+			 }
+#SobreMi img {	box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+					width:100%;
+				
+				 }
+
+			  }
+#SobreMi2 p {	text-align: justify;
+				font-size: 15px;
+				padding: 3%;
+				}
+span {	color:#3cd42f;
+		font-weight: bold;
+	  }
+
+/* Contacto */
+
+#contacto {	padding-top:5%;
+			padding-bottom:5%;
+		  }
+#mail {	font-weight:bold;
+		padding-bottom:2px;
+	  }
+
+.header {font-weight:bold;}
+
+.bigicon {
+    font-size: 35px;
+    color: #3cd42f;
+}
+
+.btn-primary {	background-color: #3cd42f;
+				border-color: #3cd42f;
+				color:white;
+			 }
+.btn-primary:hover {	background-color: #35bb2a;
+						border-color: #35bb2a;
+						color:white;
+			 }
