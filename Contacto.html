@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gamizdesign</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+	<link rel="icon" type="image/png" href="imagenes/favicon.png" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<img id="logo" src="imagenes/Logo.png" alt="Logotipo con el nombre de la web" />
+	</header>
+	<div>
+		<nav id="menu">
+			<ul>
+				<li><a href="Index.html">Portfolio</a></li>
+				<li><a href="Servicios.html">Servicios</a></li>
+				<li><a href="SobreMi.html">Sobre Mi</a></li>
+				<li class="verde"><a href="Contacto.html" >Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+<!-- ----------------------------------------------------------------------------------------------------- -->
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-6">
+				<legend class="text-center header">Contacto</legend>
+				<p id="mail" class="text-center">Email: </p>
+				<div class="col-md-12 text-center">
+					<nav>
+						<a href="https://www.facebook.com/GamizDesign/" target="_blank"><img src="imagenes/LogoFacebook.png" alt="icono del enlace a Facebook"></a>
+						<a href="https://twitter.com/FranGamiz" target="_blank"><img src="imagenes/LogoTwitter.png" alt="icono del enlace a Twitter"></a>
+						<a href="https://www.instagram.com/frangamizart/" target="_blank"><img src="imagenes/LogoInstagram.png" alt="icono del enlace a Instagram"></a>
+						<a href="https://www.linkedin.com/in/fran-g%C3%A1miz-7532139a/" target="_blank"><img src="imagenes/LogoLinkedin.png" alt="icono del enlace a Linkedin"></a>
+						<a href="http://gamizdesign.tumblr.com/" target="_blank"><img src="imagenes/LogoTumblr.png" alt="icono del enlace a Tumblr"></a>
+						<a href="https://accounts.google.com/signin/v2/identifier?service=oz&passive=1209600&continue=https%3A%2F%2Fplus.google.com%2Fup%2F%3Fcontinue%3Dhttps%3A%2F%2Fplus.google.com%2Fshare%26gpsrc%3Dgplp0&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="imagenes/LogoGoogle.png" alt="icono del enlace a Google +"></a>
+					</nav>
+				</div>
+			</div>
+			
+			<div class="col-sm-12 col-md-6 col-lg-6" id="">
+				<form action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" method="post" class="form-horizontal">
+					<legend class="text-center header">Formulario de Contacto</legend>
+					<div class="form-group">
+						<span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+						<div class="col-md-12">
+							<input id="nombre" name="nombre" type="text" placeholder="Nombre*" class="form-control" required>
+						</div>
+                    </div>
+					<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-12">
+                                <input id="email" name="email" type="text" placeholder="Email*" class="form-control" required>
+                            </div>
+                    </div>
+					<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-12">
+                                <input id="telefono" name="Telefono" type="text" placeholder="Teléfono" class="form-control">
+                            </div>
+                    </div>
+					<div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-12">
+                                <textarea class="form-control" id="mensaje" name="Mensaje" placeholder="Escriba su mensaje..." rows="7" required></textarea>
+                            </div>
+                    </div>
+					<div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                    </div>
+					<input type="hidden" name="emailalumno" value="frangamiz89@gmail.com">
+					<input type="hidden" name="plantillacorreo" value="
+						<html lang=&quot;es&quot;>
+						<head>
+						 <meta charset=&quot;utf-8&quot; />
+						 <title>HTML 5</title>
+						 <link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;estilo.css&quot; />
+						</head>
+						<body>
+							<p>Se ha recibido un nuevo formulario de contacto del usuario %emailusuario% con un comentario sobre la web</p>
+							<p>El comentario es el siguiente:</p>
+							<br>
+							<p>%mensaje%</p>
+						</body>
+						</html>
+					">
+					<input type="hidden" name="clavesecreta" value="3a881f46d2">
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		var a ="gamizdesign"
+		var b ="@"
+		var c ="gmail"
+		var d =".com"
+		var x = a.concat(b,c,d)
+		document.getElementById("mail").innerHTML = x;
+	</script>
+	
+</body>
+</html>
